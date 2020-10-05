@@ -1,28 +1,61 @@
 <html>
+
 <head>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Roboto:wght@300&display=swap');
+    img {
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222);
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    @keyframes floating {
+      from {
+        transform: translate(0, 0px);
+      }
+      65% {
+        transform: translate(0, 15px);
+      }
+      to {
+        transform: translate(0, -0px);
+      }
+    }
+    h1, h2, h3 {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      padding: 25px;
+    }
+  </style>
 </head>
-<body style="background-image: url('https://images.wallpaperscraft.com/image/space_planets_nebula_131343_1600x900.jpg'); background-repeat: no-repeat; color: white;">
-<div style="text-align:center">
-<h style="font-size:50px"> Mirunalini </h>
-  <br />
-  <br />
-  <br />
-<h2> Hi all! Welcome to my Portfolio!!</h2>
-  <br />
-  <br />
-  <br />
-<div>
-<img src="https://data.whicdn.com/images/301071760/original.jpg"  width="150px" style="border-radius: 50%;border: 2px solid white" />
-</div>
-<br />
-<br />
-<h4> My name is Mirunalini. I live in Singapore.</h2>
-<p style="line-height:0.1"> I'm interested in Astronomy. I'm just starting to learn programming. </p>
-<p> I'm also interested in Gymnastics. I'm a sprinter too. </p>
-<p> I do lots of craft work. I'm curious and like to learn as much as I can! </p>
-<p> My favorite scientist is Albert Einstein. </p>
-</div>
+
+<body
+  style="background-image: url('https://images.wallpaperscraft.com/image/space_planets_nebula_131343_1600x900.jpg'); background-repeat: no-repeat; color: white;">
+  <div style="text-align:center">
+    <h1 style="font-size:50px"> Mirunalini </h1>
+    <br />
+    <h2> Hi all! Welcome to my Portfolio!!</h2>
+    <br />
+    <br />
+    <div>
+      <img src="https://data.whicdn.com/images/301071760/original.jpg" width="150px"
+        style="border-radius: 50%;border: 2px solid white" />
+    </div>
+    <br />
+    <br />
+    <h3> My name is Mirunalini. I live in Singapore.</h3>
+      <p style="line-height:0.1"> I'm interested in Astronomy. I'm just starting to learn programming. </p>
+      <p> I'm also interested in Gymnastics. I'm a sprinter too. </p>
+      <p> I do lots of craft work. I'm curious and like to learn as much as I can! </p>
+      <p> My favorite scientist is Albert Einstein. </p>
+  </div>
 </body>
+
 </html>
